@@ -12,7 +12,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
-
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
@@ -62,7 +62,8 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatButtonToggleModule
 
   ],
   exports: [
@@ -94,7 +95,8 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatSlideToggleModule
+    MatSlideToggleModule,
+    MatButtonToggleModule
   ]
 })
 export class MaterialModule { }

@@ -1,0 +1,88 @@
+.jumbotron {
+    padding: 10px !important;
+    background-color: #fff !important;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+#compteur {
+    /* float: right;
+    margin-top: 5rem;
+    margin-right: 5rem; */
+    padding: 1rem 1.5rem 1.5rem;
+    background: #3f51b5;
+    
+   
+}
+#donation-counter-numbers {
+    font-size: 3.7rem;
+}
+#donation-counter-numbers {
+   /*  color: #ff4081; */
+   color: #fff;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+mat-label{
+    font-weight: bold;
+    color:  #3f51b5;;
+}
+#donation-counter-texte {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.mat-radio-button {
+    margin: 0 12px;
+  }
+
+  .example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+
+  .example-full-width {
+    width: 100%;
+  }
+
+  .mat-button-toggle-appearance-standard .mat-button-toggle-label-content {
+    line-height: 60px !important;
+  }
+
+  .mat-button-toggle-label-content {
+    line-height: 60px !important;
+  }
+
+  mat-button-toggle-group {
+    flex-wrap: wrap;
+  }
+  .mat-button-toggle-checked{
+    color: #fff;
+    background-color:#3f51b5 !important;
+  }
+  .mat-button-toggle-group-appearance-standard {
+     border: none !important
+  }
+  .mat-button-toggle+.mat-button-toggle {
+    border-left:  2px solid #3f51b5; 
+}
+  .mat-button-toggle {
+      border: 2px solid #3f51b5; 
+    border-radius: 4px;
+    margin: 5px;
+   /*  width: 30px;
+    height: 30px;
+    font-family: 'Nunito Semibold', sans-serif;
+    font-size: 14px;
+    font-style: bold; */
+}
+
+/* .mat-button-toggle-disabled {
+    border: 1px solid #c5c0c7;
+    background-color: #e1dde5;
+} */

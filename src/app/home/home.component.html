@@ -1,1 +1,213 @@
-<p>home works!</p>
+<div class="jumbotron">
+  <h1 class="display-3">Covid-19 campaign!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
+    content or information.</p>
+  <div id="compteur">
+    <div id="donation-counter-numbers">74.569 <span>RWF</span></div>
+    <div id="donation-counter-texte">collectés durant la campagne</div>
+  </div>
+
+
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <h5 class="card-header">1. MON DON</h5>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <mat-form-field appearance="outline" class="example-full-width">
+              <mat-label>Je donne depuis: </mat-label>
+              <mat-select value="France">
+                <mat-option *ngFor="let country of countries" [value]="country.value">
+                  {{country.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <mat-form-field appearance="outline" class="example-full-width">
+              <mat-label>Je contribue:</mat-label>
+              <mat-select [(ngModel)]="favoriteContribution">
+                <mat-option *ngFor="let contribution of contributions" [value]="contribution">
+                  {{contribution}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <mat-form-field appearance="outline" class="example-full-width">
+              <mat-label>Mon mode de règlement:</mat-label>
+              <mat-select [value]="favoritePaymentMode">
+                <mat-option *ngFor="let paymentMode of paymentModes" [value]="paymentMode.value">
+                  {{paymentMode.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div> 
+
+        </div>
+        
+        <!-- <div>
+          
+          <label id="example-radio-group-label">Je contribue: </label>
+          <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+            [(ngModel)]="favoriteContribution">
+            <mat-radio-button class="example-radio-button" *ngFor="let contribution of contributions"
+              [value]="contribution">
+              {{contribution}}
+            </mat-radio-button>
+          </mat-radio-group>
+        </div> -->
+       
+
+           <!--  <table class="example-full-width">
+              <tr>
+                <td><mat-label>Valeur de mon don {{favoriteContribution}} :</mat-label>  </td>
+                <td>
+                  <mat-form-field  >
+                  <mat-select [(ngModel)]="favoriteDevise">
+                  <mat-option *ngFor="let devise of devises" [value]="devise.value">
+                    {{devise.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+                
+              
+              </td>
+              </tr>
+            </table>  -->         
+              
+            <div class="row">
+              <div class="col-md-4 col-sm-12 col-xs-12">
+                <mat-form-field appearance="outline" class="example-full-width"  >
+                  <mat-label>Valeur de mon don {{favoriteContribution}} :</mat-label>
+                  <mat-select [(ngModel)]="favoriteDevise.value">
+                  <mat-option *ngFor="let devise of devises" [value]="devise.value">
+                    {{devise.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+                
+                
+              </div>
+              <div class="col-md-8 col-sm-12 col-xs-12">
+                <mat-button-toggle-group   name="fontStyle" aria-label="Font Style">
+                  <mat-button-toggle   value="bold">30 {{favoriteDevise.viewValue}}</mat-button-toggle>
+                  <mat-button-toggle value="italic">60 {{favoriteDevise.viewValue}}</mat-button-toggle>
+                  <mat-button-toggle value="underline">100 {{favoriteDevise.viewValue}}</mat-button-toggle>
+                  <mat-button-toggle value="underline">200 {{favoriteDevise.viewValue}}</mat-button-toggle>
+         
+                  <mat-button-toggle value="underline">Autre montant</mat-button-toggle>
+                </mat-button-toggle-group>
+                <div class="alert alert-primary" role="alert">
+                  3000 RWF
+                </div>
+              </div>
+            </div>
+         
+        
+      <div class="row">
+        <div class="col-md-4">
+          <mat-form-field appearance="outline" class="example-full-width">
+            <mat-label>Autre montant </mat-label>
+            <input matInput placeholder="1.000" >
+            <mat-icon matSuffix></mat-icon>
+          </mat-form-field>
+        </div>
+        
+        
+        
+        
+      </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- <div class="col-md-6">
+    
+    <div class="card">
+      <h5 class="card-header">2. MON MODE RÈGLEMENT :</h5>
+      <div class="card-body">
+        <div>
+        
+          <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group"
+            [(ngModel)]="favoritePaymentMode">
+            <mat-radio-button class="example-radio-button" *ngFor="let paymentMode of paymentModes"
+              [value]="paymentMode.value">
+              {{paymentMode.viewValue}}
+            </mat-radio-button>
+          </mat-radio-group>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>
+<hr>
+ <div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <h5 class="card-header">2. MES COORDONNÉES</h5>
+      <div class="card-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Inscription à la newsletter
+              </label>
+            </div>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6"></div>
+</div> 
+<hr>
+<div class="row">
+  <div class="col-md-6">
+
+    <button type="button" class="btn btn-primary btn-lg btn-block">Valider mon paiement</button>
+  </div>
+</div>
+<br>
+<mat-divider></mat-divider>
