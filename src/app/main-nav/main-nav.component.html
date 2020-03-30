@@ -1,5 +1,8 @@
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport
+  <mat-sidenav #drawer
+  class="sidenav"
+  [ngClass]="{ hidden: !(isHandset$ | async) }"
+  fixedInViewport
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
@@ -21,10 +24,30 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>Tubafashe</span>
+      <span class="spacer"></span>
+      <mat-form-field >
+        <mat-select value="fr">
+          <mat-option (click)="drawer.toggle();changerLanguage('fr')" value="fr">Français</mat-option>
+          <mat-option  (click)="drawer.toggle();changerLanguage('en')" value="en">Anglais</mat-option>
+        </mat-select>
+      </mat-form-field>
     </mat-toolbar>
     <!-- Add Content Here -->
     <main class="content">
       <ng-content></ng-content>
     </main>
+    <footer>
+
+      <mat-toolbar color="primary">
+
+
+          <a href="https://twitter.com/fhabumugisha" title="Twitter">
+            Twitter</a>
+          <a href="https://github.com/fhabumugisha" title="Github">
+             Github</a>
+
+
+      </mat-toolbar>
+  </footer>
   </mat-sidenav-content>
 </mat-sidenav-container>
