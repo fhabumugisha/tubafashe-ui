@@ -1,0 +1,39 @@
+{
+  "campaigns": [
+    {
+      "name": "Codiv-19, let's help Rwandans",
+      "resume": "Help RWanda",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.",
+      "amount": 74550,
+      "coverImageUrl": "https://i.picsum.photos/id/385/1700/250.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Codiv-19, let's help them",
+      "resume": "Help RWandans",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.",
+      "amount": 74550,
+      "coverImageUrl": "https://i.picsum.photos/id/385/1700/250.jpg",
+      "id": "2"
+    }
+  ],
+  "donations": [
+    {
+      "firstName": "Fab",
+      "lastName": "Bob",
+      "email": "fab.bob@yahoo.fr",
+      "mobilPhone": "0977667778",
+      "adresse": "7 rue de la gare",
+      "city": "Paris",
+      "country": "France",
+      "subscribeToNewsletter": true,
+      "paymentType": "cc",
+      "amount": 267,
+      "devise": "eur"
+    },
+    {
+      "firstName": "hab",
+      "id": "2GEYI2FEGIEIG"
+    }
+  ]
+}
