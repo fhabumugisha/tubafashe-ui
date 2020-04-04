@@ -23,17 +23,292 @@
       "lastName": "Bob",
       "email": "fab.bob@yahoo.fr",
       "mobilPhone": "0977667778",
-      "adresse": "7 rue de la gare",
+      "address": "7 rue de la gare",
       "city": "Paris",
       "country": "France",
       "subscribeToNewsletter": true,
-      "paymentType": "cc",
+      "pmethod": "cc",
       "amount": 267,
-      "devise": "eur"
+      "currency": "eur"
     },
     {
       "firstName": "hab",
       "id": "2GEYI2FEGIEIG"
+    },
+    {
+      "currency": {
+        "value": "EUR",
+        "viewValue": "EUR",
+        "icon": "mdi-currency-eur",
+        "symbol": "€"
+      },
+      "amount": "30",
+      "pmethod": "cc",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": "",
+      "id": "A_Ygicb"
+    },
+    {
+      "currency": "USD",
+      "amount": "30",
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "oUr2t4L"
+    },
+    {
+      "currency": "EUR",
+      "amount": "30",
+      "pmethod": "cc",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "NB6HHhv"
+    },
+    {
+      "currency": "EUR",
+      "amount": "60",
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "dbf0AIR"
+    },
+    {
+      "currency": "EUR",
+      "amount": "200",
+      "pmethod": "cc",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "Xujno9L"
+    },
+    {
+      "currency": "EUR",
+      "amount": "60",
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "HE3NHjh"
+    },
+    {
+      "currency": "EUR",
+      "amount": "100",
+      "pmethod": "mm",
+      "email": "fabriceboris@yahoo.fr",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "SOIvWq7"
+    },
+    {
+      "currency": "EUR",
+      "amount": "60",
+      "pmethod": "cc",
+      "email": "fabriceboris@yahoo.fr",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "3wDLpGR"
+    },
+    {
+      "currency": "EUR",
+      "amount": "60",
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "C0ca3ny"
+    },
+    {
+      "currency": "EUR",
+      "amount": "100",
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "IT7h2k2"
+    },
+    {
+      "currency": "EUR",
+      "pmethod": "cc",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "QsDPOaW"
+    },
+    {
+      "currency": "EUR",
+      "amountData": {
+        "amount": null,
+        "otherAmount": "1000"
+      },
+      "pmethod": "mm",
+      "email": "fabriceboris@yahoo.fr",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "UoEEXn9"
+    },
+    {
+      "currency": "EUR",
+      "amountData": {
+        "amount": null,
+        "otherAmount": "1000"
+      },
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "id": "i9AXPft"
+    },
+    {
+      "currency": "EUR",
+      "amountData": {
+        "amount": "30",
+        "otherAmount": null
+      },
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "amount": "30",
+      "id": "lHwJtEp"
+    },
+    {
+      "currency": "EUR",
+      "amountData": {
+        "amount": "30",
+        "otherAmount": null
+      },
+      "pmethod": "cc",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "amount": "30",
+      "id": "a1S1Ozz"
+    },
+    {
+      "currency": "EUR",
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "amount": "30",
+      "id": "JQyH5P6"
+    },
+    {
+      "currency": "EUR",
+      "pmethod": "mm",
+      "email": "fabrice@test.rw",
+      "mobilPhone": "0615535999",
+      "firstName": "Fabrice",
+      "lastName": "HABUMUGISHA",
+      "address": "20 RUE PHILOMENE CADORET",
+      "city": "Tinténiac",
+      "country": "France",
+      "subscribeToNewsletter": null,
+      "amount": "1000",
+      "id": "6P34eYZ"
     }
-  ]
+  ],
+
+  "rates" :  [
+    {
+      "id": "EUR",
+
+        "rates": {
+          "USD": 1.080433,
+          "XOF": 652.582065,
+          "RWF": 1010.205125
+        }
+    },
+    {
+    "id": "USD",
+        "rates": {
+          "RWF": 937.5
+        }
+      }
+
+]
 }
